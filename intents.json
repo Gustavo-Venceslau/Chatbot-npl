@@ -3,44 +3,65 @@
 	  {
 		"tag": "greeting",
 		"patterns": [
-		  "Hi",
-		  "Hey",
-		  "How are you",
-		  "Is anyone there?",
-		  "Hello",
-		  "Good day"
+		  "Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day",
+		  "What's up", "Greetings", "Good morning", "Good evening", "Yo",
+		  "Hi there", "Hello there", "Howdy", "Hiya", "G'day", "Bonjour"
 		],
 		"responses": [
-		  "Hey :-)",
-		  "Hello, thanks for visiting",
-		  "Hi there, what can I do for you?",
-		  "Hi there, how can I help?"
+		  "Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?",
+		  "Hi there, how can I help?", "Greetings! How may I assist you today?",
+		  "Good to see you! What brings you here?", "Hello! How's your day going?",
+		  "Hi there! Ready for some great coffee?", "Welcome! What can I get for you today?"
 		]
 	  },
 	  {
 		"tag": "goodbye",
-		"patterns": ["Bye", "See you later", "Goodbye"],
+		"patterns": [
+		  "Bye", "See you later", "Goodbye", "I'm leaving", "Have a good day",
+		  "Talk to you later", "Catch you later", "Until next time", "Ciao",
+		  "Take care", "Farewell", "Adios", "So long", "Toodles"
+		],
 		"responses": [
-		  "See you later, thanks for visiting",
-		  "Have a nice day",
-		  "Bye! Come back again soon."
+		  "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.",
+		  "Goodbye! We hope to see you again.", "Take care! Looking forward to our next chat.",
+		  "Farewell! Enjoy your day!", "Until next time! Stay caffeinated!",
+		  "Adios! Don't forget to come back for your daily brew!"
 		]
 	  },
 	  {
 		"tag": "thanks",
-		"patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-		"responses": ["Happy to help!", "Any time!", "My pleasure"]
+		"patterns": [
+		  "Thanks", 
+		  "Thank you", 
+		  "That's helpful", 
+		  "Thank's a lot!",
+		  "I appreciate it",
+		  "You've been very helpful",
+		  "Much appreciated"
+		],
+		"responses": [
+		  "Happy to help!",
+		  "Any time!",
+		  "My pleasure",
+		  "You're welcome! Is there anything else I can help with?",
+		  "Glad I could assist you!"
+		]
 	  },
 	  {
 		"tag": "items",
 		"patterns": [
 		  "Which items do you have?",
 		  "What kinds of items are there?",
-		  "What do you sell?"
+		  "What do you sell?",
+		  "Can you list your products?",
+		  "What's on the menu?",
+		  "Do you have any specials?"
 		],
 		"responses": [
 		  "We sell coffee and tea",
-		  "We have coffee and tea"
+		  "We have coffee and tea",
+		  "Our main products are various types of coffee and tea. We also offer pastries and light snacks.",
+		  "We specialize in artisanal coffee and premium teas. Would you like to know about our daily specials?"
 		]
 	  },
 	  {
@@ -49,11 +70,15 @@
 		  "Do you take credit cards?",
 		  "Do you accept Mastercard?",
 		  "Can I pay with Paypal?",
-		  "Are you cash only?"
+		  "Are you cash only?",
+		  "What payment methods do you accept?",
+		  "Do you take Apple Pay?"
 		],
 		"responses": [
 		  "We accept VISA, Mastercard and Paypal",
-		  "We accept most major credit cards, and Paypal"
+		  "We accept most major credit cards, and Paypal",
+		  "We accept various payment methods including VISA, Mastercard, American Express, PayPal, and Apple Pay.",
+		  "Yes, we accept credit cards, debit cards, PayPal, and mobile payment options. Cash is also welcome."
 		]
 	  },
 	  {
@@ -61,11 +86,16 @@
 		"patterns": [
 		  "How long does delivery take?",
 		  "How long does shipping take?",
-		  "When do I get my delivery?"
+		  "When do I get my delivery?",
+		  "Do you offer same-day delivery?",
+		  "What are your shipping options?",
+		  "Is there express delivery available?"
 		],
 		"responses": [
 		  "Delivery takes 2-4 days",
-		  "Shipping takes 2-4 days"
+		  "Shipping takes 2-4 days",
+		  "Standard delivery usually takes 2-4 business days. We also offer express shipping for an additional fee, which can deliver your items within 1-2 business days.",
+		  "Delivery times vary depending on your location. Standard shipping is 2-4 days, while express options are available for faster delivery."
 		]
 	  },
 	  {
@@ -73,11 +103,114 @@
 		"patterns": [
 		  "Tell me a joke!",
 		  "Tell me something funny!",
-		  "Do you know a joke?"
+		  "Do you know a joke?",
+		  "Make me laugh",
+		  "I need some humor",
+		  "Got any good one-liners?"
 		],
 		"responses": [
 		  "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-		  "What did the buffalo say when his son left for college? Bison."
+		  "What did the buffalo say when his son left for college? Bison.",
+		  "Why don't scientists trust atoms? Because they make up everything!",
+		  "Why did the scarecrow win an award? He was outstanding in his field!",
+		  "What do you call a fake noodle? An impasta!"
+		]
+	  },
+	  {
+		"tag": "hours",
+		"patterns": [
+		  "What are your hours?",
+		  "When are you open?",
+		  "What time do you close?",
+		  "Are you open on weekends?",
+		  "What are your business hours?"
+		],
+		"responses": [
+		  "We are open Monday to Friday from 7 AM to 8 PM, and on weekends from 8 AM to 6 PM.",
+		  "Our business hours are 7 AM - 8 PM on weekdays, and 8 AM - 6 PM on Saturdays and Sundays.",
+		  "We're open every day! Weekdays 7-8, and weekends 8-6. Looking forward to serving you!"
+		]
+	  },
+	  {
+		"tag": "location",
+		"patterns": [
+		  "Where are you located?",
+		  "What's your address?",
+		  "How can I find your store?",
+		  "Do you have multiple locations?",
+		  "Which city are you in?"
+		],
+		"responses": [
+		  "Our main store is located at 123 Coffee Street, Beantown. We also have locations in Brewville and Espresso City.",
+		  "You can find us at 123 Coffee Street in Beantown. We're right across from Central Park.",
+		  "We have three locations: Beantown, Brewville, and Espresso City. Which one is most convenient for you?"
+		]
+	  },
+	  {
+		"tag": "menu",
+		"patterns": [
+		  "What's on your menu?", "Can I see the menu?", "What drinks do you offer?",
+		  "Do you have a food menu?", "What are your specialties?", "Any vegan options?",
+		  "Got any gluten-free items?", "What's your most popular drink?"
+		],
+		"responses": [
+		  "Our menu includes a variety of coffee drinks, teas, and pastries. Would you like me to list some options?",
+		  "We offer espresso-based drinks, pour-overs, cold brews, and a selection of teas. We also have a range of pastries and light snacks.",
+		  "Our specialties include our signature caramel latte, cold brew, and artisanal teas. We also have vegan and gluten-free options available.",
+		  "Our most popular drinks are our house blend coffee, vanilla latte, and matcha green tea. Would you like to know more about any of these?"
+		]
+	  },
+	  {
+		"tag": "coffee_preparation",
+		"patterns": [
+		  "How do you prepare your coffee?", "What brewing methods do you use?",
+		  "Is your coffee fair trade?", "Do you roast your own beans?",
+		  "Where do your coffee beans come from?", "What's special about your coffee?"
+		],
+		"responses": [
+		  "We use various brewing methods including espresso, pour-over, French press, and cold brew. Each method brings out unique flavors in the coffee.",
+		  "Our coffee beans are ethically sourced and fair trade certified. We work directly with farmers to ensure quality and sustainability.",
+		  "We roast our beans in small batches to ensure freshness and optimal flavor. Our roastery is actually visible from the cafe!",
+		  "Our coffee beans come from various regions including Ethiopia, Colombia, and Sumatra. Each origin offers distinct flavor profiles."
+		]
+	  },
+	  {
+		"tag": "wifi",
+		"patterns": [
+		  "Do you have WiFi?", "Is there free internet?", "What's the WiFi password?",
+		  "Can I work from your cafe?", "Is your WiFi fast?", "How do I connect to your internet?"
+		],
+		"responses": [
+		  "Yes, we offer free WiFi to all our customers. Just ask for the password when you make a purchase.",
+		  "We have high-speed WiFi available. The password changes weekly, so please ask our staff for the current one.",
+		  "Our cafe is laptop-friendly with plenty of outlets. Feel free to work or study here!",
+		  "To connect to our WiFi, select 'CoffeeShop_Guest' and enter the password provided on your receipt."
+		]
+	  },
+	  {
+		"tag": "events",
+		"patterns": [
+		  "Do you host any events?", "Are there live performances?", "Do you have open mic nights?",
+		  "Any coffee tasting events?", "What's happening this weekend?", "Any upcoming workshops?"
+		],
+		"responses": [
+		  "We host various events including live music on Fridays, open mic nights on Wednesdays, and coffee tasting workshops monthly.",
+		  "This weekend we have a latte art competition on Saturday and a jazz brunch on Sunday. Would you like more details?",
+		  "We regularly organize coffee workshops, covering topics from brewing techniques to latte art. Check our events board for upcoming dates!",
+		  "Our next big event is a meet-the-roaster session next Thursday. It's a great opportunity to learn about coffee sourcing and roasting!"
+		]
+	  },
+	  {
+		"tag": "loyalty_program",
+		"patterns": [
+		  "Do you have a loyalty program?", "Is there a rewards card?", "How can I earn points?",
+		  "What are the benefits of your membership?", "How do I sign up for rewards?", "Any discounts for regular customers?"
+		],
+		"responses": [
+		  "Yes, we have a loyalty program! You earn 1 point for every dollar spent, and 50 points get you a free drink.",
+		  "Our rewards program offers exclusive discounts, early access to new products, and a free birthday drink. You can sign up at the counter.",
+		  "Members of our loyalty program get a 10% discount every Monday and double points on weekends. It's free to join!",
+		  "To sign up for our rewards program, just download our app or ask for a physical card at the counter. Start earning points with your very first purchase!"
 		]
 	  }
 	]
